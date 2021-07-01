@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>Dad Jokes</title>
+</head>
+<body>
+    <section class="container text-center">
+        <div class="row py-5 my-5">
+            <div class="col"></div>
+            <div class="col-8 d-none d-xl-block">
+                <h1 class="display-1 the-header">Dad Joke Generator!</h1>
+            </div>
+            <div class="col-8 d-none d-xl-none d-lg-block">
+                <h1 class="display-2 the-header">Dad Joke Generator!</h1>
+            </div>
+            <div class="col-8 d-lg-none d-block">
+                <h1 class="display-3 the-header">Dad Joke Generator!</h1>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row py-5 my-5">
+            <div class="col"></div>
+            <div class="col">
+                <button class="btn btn-lg" id="joke-button">Click Me For Dad Joke!</button>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row py-5 my-5">
+            <div class="col"></div>
+            <div class="col">
+                <ul class="list-group" id="jokes"></ul>
+            </div>
+            <div class="col"></div>
+        </div>
+        <p class="lead" id="foot">Using the API from <a href="https://icanhazdadjoke.com/" target="_blank">icanhazdadjoke.com</a></p>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+body {
+    background-color: #CFEED1;
+    font-family: 'Amatic SC', cursive;
+}
+
+#joke-item {
+    background-color: rgba(3, 8, 4, 0.1);
+    color: #FF2768;
+}
+
+.the-header {
+    color: #FF2768;
+    font-family: 'Amatic SC', cursive;
+}
+
+#joke-button {
+    font-family: 'Amatic SC', cursive;
+    background-color: #4E1A3D;
+    border: none;
+    color: #05E0E9;
+}
+
+#joke-button:active {
+    background-color: #FF2768;
+}
+
+#foot {
+    color: #FF2768;
+}
